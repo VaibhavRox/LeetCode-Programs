@@ -1,5 +1,5 @@
 class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
+    def generateParenthesis(self,n):
         res=[]
         def dfs(openP,closeP,s):
             if openP==closeP and openP+closeP==n*2:    #To check validity of combo

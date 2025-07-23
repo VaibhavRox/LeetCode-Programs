@@ -1,5 +1,5 @@
 class Solution:
-    def maximumSum(self, nums: List[int]) -> int:
+    def maximumSum(self, nums):
         def digit_sum(n):
             return sum(int(d) for d in str(n))
         digit_map={}

@@ -1,6 +1,6 @@
 from collections import Counter
 class Solution:
-    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+    def intersect(self, nums1, nums2):
         count=Counter(nums1)
         result=[]
         for i in nums2:

@@ -1,5 +1,5 @@
 class Solution:
-    def findLHS(self, nums: List[int]) -> int:
+    def findLHS(self, nums):
         nums.sort()
         j=0
         maxlen=0
